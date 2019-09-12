@@ -1,0 +1,339 @@
+/*-----global------*/
+* {
+    margin: 0;
+    padding: 0;
+    bordeR: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+@font-face {
+    font-family: schulbuchbold;
+  src: url(schulbuchbold.ttf);
+}
+
+@font-face {
+  font-family: schulbuchnormal;
+  src: url(schulbuchnormal.ttf);
+    
+}   
+
+body, html { 
+width: 100%;
+height: 100%;
+font-size: 100%;
+    
+}
+
+#myBtn {
+    
+ display: none;
+  position: fixed;
+  bottom: 2em ;
+  right: 1em;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #10369c;
+  color: white;
+  cursor: pointer;
+  padding: 0.7em;
+  border-radius: 7em;
+  opacity: 0.7;
+    
+}
+
+#myBtn:hover {
+  background-color: #fec005;
+  opacity: 1;
+
+}
+
+#myBtn img {
+    height: 20px;
+    object-position: center;
+}
+
+h1 { 
+    font-size: 2.9vw;
+    font-weight: 100;
+    font-family: schulbuchbold;
+    color: #fec005;
+    letter-spacing: 0.3vw;
+    margin-top: 1.5%;
+    margin-left: 10%;
+    height: 1.2em;
+    
+}
+
+h2 {
+    font-size: 7.4vw;
+    font-weight: 100;
+    font-family: schulbuchbold;
+    color: #fec005;
+    letter-spacing: 1vw;
+    margin-left: 10%;
+    margin-top: 25%;
+    line-height: 50%;
+    
+    
+    
+}
+
+
+
+h3 {
+    font-weight: 100;
+    font-family: schulbuchnormal;
+    color: #dabdda;
+    letter-spacing: 0.3vw;
+    font-size: 1.7vw;
+    margin-left: 10%;
+    margin-top: 0.1%;
+    z-index: 2;
+}
+
+
+
+/*-----nav------*/
+nav {
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+
+
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #10369c;
+    padding: 10px 25px;
+    font-family: schulbuchnormal;
+    font-size: 1.2em;
+
+
+
+}
+
+nav a:hover:not(.active) {
+  color: #dabdda;
+}
+
+/*-----header------*/    
+header {
+    
+    background-image: url(portfolop_v1\ \(1\).svg);
+    max-width: 100%;
+    padding: 1%;
+    background-repeat: no-repeat;
+    background-size: 70vw;
+    background-position: bottom;
+    background-attachment: fixed;
+    z-index: 1;
+    padding-bottom: 15%;
+
+
+
+}
+
+
+
+/*-----about------*/
+#about {
+    min-height: auto;
+    padding:10%   10%;
+    background-color: #dabdda;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#about p {
+    
+    width:40%;
+    font-family: schulbuchnormal;
+    color: #10369c;
+    line-height: 140%; 
+    margin-top: 3%;
+    text-align: left;
+
+}
+
+#about a {
+    text-decoration: none;
+    font-family: schulbuchbold;
+    color: #10369c;
+    min-width: 40%;
+    text-align: left;
+
+}
+
+#about a:hover:not(.active) {
+  color: #fec005;
+}
+
+#about h4 {
+    font-family: schulbuchbold;
+    color: #10369c;
+    font-size: 4.9vw;
+    font-weight: 100;
+    letter-spacing: 1.5vw;
+    text-align: left;
+
+    
+}
+
+/*-----work------*/
+
+#work {
+    height: 1200px;
+    min-height: 1000px;
+    padding: 10%  10%;
+    background-image: url(visual_rechts.png);
+    background-position: bottom left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+}
+
+#work p {
+    margin-left: 58%;
+    width:40%;
+    font-family: schulbuchnormal;
+    color: #10369c;
+    line-height: 140%; 
+    margin-top: 3%;
+    text-align: left;
+    
+
+}
+
+#work h4 {
+    margin-left: 58%;
+    font-family: schulbuchbold;
+    color: #10369c;
+    font-size: 4.9vw;
+    font-weight: 100;
+    letter-spacing: 1.5vw;
+    text-align: left;
+}
+
+h4 {
+    font-family: schulbuchbold;
+    color: #10369c;
+    font-size: 4.9vw;
+    font-weight: 100;
+    letter-spacing: 1.5vw;
+
+    
+    
+}
+
+#work a {
+    text-decoration: none;
+    font-family: schulbuchbold;
+    color: #10369c;
+}
+
+#work a:hover:not(.active) {
+  color: #dabdda;
+}
+
+/*-----grid------*/    
+
+
+.row {
+    margin-top: 10%;
+    float: center;
+}
+
+
+
+.blok {
+    margin: 1%;
+    width: 35vw;
+    background-color: #dabdda;
+    opacity: 0.5;
+}
+
+.blok:hover {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+
+
+
+/*-----footer------*/
+
+footer {
+    padding: 1%;
+    background-color: #dabdda;
+}
+
+footer span {
+    font-family: schulbuchnormal;
+    color: white;
+    text-align: center left;  
+    margin: 1%;  
+
+}
+
+.instagram {
+    position:  inline;
+    width: 3%;
+    margin-left: 68%;
+    
+}
+
+
+
+/*-----animaties------*/    
+
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(5);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+nav a {
+  animation: bounceIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+   }
+  60% {
+    opacity: 1;
+  }
+  100% {
+  }
+}
+
+header {
+    animation: fadeIn 4s;
+}
+
+
+
+
+

@@ -64,6 +64,9 @@ h1 {
     margin-top: 1.5%;
     margin-left: 10%;
     height: 1.2em;
+    position: static;
+    z-index: 1;
+
     
 }
 
@@ -106,8 +109,7 @@ nav {
     width: 100%;
     position: fixed;
     z-index: 99;
-
-
+    margin-top: 3%;
 }
 
 
@@ -117,9 +119,6 @@ nav a {
     padding: 10px 25px;
     font-family: schulbuchnormal;
     font-size: 1.2em;
-
-
-
 }
 
 nav a:hover:not(.active) {
@@ -137,7 +136,8 @@ header {
     background-position: bottom;
     background-attachment: fixed;
     z-index: 1;
-    padding-bottom: 15%;
+    padding-bottom: 20%;
+
 
 
 
@@ -198,7 +198,7 @@ header {
     padding: 10%  10%;
     background-image: url(visual_rechts.png);
     background-position: bottom left;
-    background-size: contain;
+    background-size: 13vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -253,14 +253,14 @@ h4 {
 
 .row {
     margin-top: 10%;
+    margin-left: 10%;
     float: center;
 }
 
 
-
 .blok {
     margin: 1%;
-    width: 35vw;
+    width: 30vw;
     background-color: #dabdda;
     opacity: 0.5;
 }

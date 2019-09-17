@@ -10,12 +10,12 @@
 
 @font-face {
     font-family: schulbuchbold;
-  src: url(schulbuchbold.ttf);
+  src: url(schulbuchbold.ttf) format('truetype');
 }
 
 @font-face {
   font-family: schulbuchnormal;
-  src: url(schulbuchnormal.ttf);
+  src: url(schulbuchnormal.ttf) format('truetype');
     
 }   
 
@@ -251,16 +251,10 @@ h4 {
 /*-----grid------*/    
 
 
-.row {
-    margin-top: 10%;
-    margin-left: 10%;
-    float: center;
-}
 
 
 .blok {
     margin: 1%;
-    width: 30vw;
     background-color: #dabdda;
     opacity: 0.5;
 }

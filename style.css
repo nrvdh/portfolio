@@ -128,7 +128,7 @@ nav a:hover:not(.active) {
 /*-----header------*/    
 header {
     
-    background-image: url(portfolop_v1\ \(1\).svg);
+    background-image: url('portfolop_v1\ \(1\).svg');
     max-width: 100%;
     padding: 1%;
     background-repeat: no-repeat;

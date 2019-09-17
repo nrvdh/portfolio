@@ -128,12 +128,12 @@ nav a:hover:not(.active) {
 /*-----header------*/    
 header {
     
-    background-image: url('portfolop_v1\ \(1\).svg');
+    background-image: url('illustratie.png');
     max-width: 100%;
     padding: 1%;
     background-repeat: no-repeat;
-    background-size: 70vw;
-    background-position: bottom;
+    background-size: 52vw;
+    background-position: right bottom;
     background-attachment: fixed;
     z-index: 1;
     padding-bottom: 20%;

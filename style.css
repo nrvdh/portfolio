@@ -188,8 +188,8 @@ header {
     line-height: 150%; 
     margin-top: 5%;
     text-align: left;
-    font-size: 110%;
-    margin-left: 30%;
+    font-size: 16px;
+    margin-left: 20%;
     margin-right: 15%;
 
 }
@@ -201,7 +201,7 @@ header {
     color: #02123D;
     min-width: 40%;
     text-align: left;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-right: 15%;
     
 
@@ -218,7 +218,7 @@ header {
     font-weight: 100;
     letter-spacing: 1.5vw;
     text-align: left;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-right: 15%;
 
     
@@ -485,6 +485,8 @@ width: 90%;
   text-align: left;
   margin-left: 15%;
   margin-right: 15%;
+  font-size: 14px;
+
 
 }
 
@@ -505,6 +507,12 @@ width: 90%;
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 15%;
+}
+
+#about img{
+  width: 70%;
+  margin-left: 15%; 
+  margin-right: 15%; 
 }
 /*-----work------*/
 #work {

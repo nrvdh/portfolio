@@ -444,7 +444,7 @@ header {
     z-index: 99;
     transition: top 0.3s;
     width: 70%;
-    pleft: 15%;
+    left: 15%;
     right: 15%;
     text-align: center;
     
@@ -455,7 +455,7 @@ header {
     color: #02123D;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
-    font-size: 3vw;
+    font-size: 3.3vw;
     letter-spacing: 0.3vw;
 }
 

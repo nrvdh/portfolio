@@ -229,6 +229,7 @@ header {
   
 }
 
+
 #work p {
   width:40%;
   font-family: 'Source Sans Pro', sans-serif;
@@ -285,8 +286,12 @@ line-height: 5%;
   
 }
 
+.row img{
+  width: 70%;
+}
 .row .blok{
-  float: left;  
+  float: left;
+  
 }
 
 #work .blok p{
@@ -294,6 +299,7 @@ line-height: 5%;
   margin-top: 10%;
   color: #02123D;
   font-family: 'Source Sans Pro', sans-serif;
+  
 
 }
 
@@ -301,7 +307,8 @@ line-height: 5%;
   width: 80%;
   opacity: 0.5;
   align-items: center;
-  text-align: center;
+  text-align: left;
+  font-weight: 100;
 
 }
 
@@ -310,8 +317,10 @@ line-height: 5%;
 
 .blok:hover {
     opacity: 1;
-    transition: 0.2s;
+    transition: 0.1s;
+    font-weight: 600;
 }
+
 
 
 
@@ -376,32 +385,6 @@ line-height: 5%;
 }
 
 
-/* If you don't want the footer to be responsive, remove these media queries */
-
-@media (max-width: 600px) {
-
-	.footer-basic-centered{
-		padding: 35px;
-	}
-
-	.footer-basic-centered .footer-company-motto{
-		font-size: 18px;
-	}
-
-	.footer-basic-centered .footer-company-name{
-		font-size: 12px;
-	}
-
-	.footer-basic-centered .footer-links{
-		font-size: 14px;
-		padding: 25px 0 20px;
-	}
-
-	.footer-basic-centered .footer-links a{
-		line-height: 1.8;
-	}
-}
-
 
 
 /*-----animaties------*/    
@@ -441,4 +424,216 @@ header {
 }
 
 
+@media (max-width: 800px) {
+    
+    #nav {
+    line-height: 100px;
+    text-align: center;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    margin-top: 1.5%;
+    transition: top 0.3s;
+    
+}
 
+
+#nav a {
+    text-decoration: none;
+    color: #02123D;
+    padding: 10px 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    letter-spacing: 0.2vw;
+}
+/*-----about------*/
+#about {
+
+  min-height: auto;
+  padding: 15%  15%;
+  padding-left: 15%;
+  background-color: #FBFBFB;
+  background-size: 35%;
+  background-repeat: no-repeat;
+  z-index: 2;
+  display: inline-block;
+  align-items:left;
+}
+
+#about img{
+align-content: left;
+float: center;
+}
+
+#about p {
+  
+  width:70%;
+  margin-top: 15%;
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+#about a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #02123D;
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+#about h4 {
+
+  font-size: 2.9em;
+  margin-left: 15%;
+  margin-top: 15%;
+}
+/*-----work------*/
+#work {
+
+  min-height: auto;
+  padding: 15%  15%;
+  padding-left: 15%;
+  background-color: #ffffff;
+  background-size: 35%;
+  background-repeat: no-repeat;
+  z-index: 2;
+  display: inline-block;
+  align-items:left;
+}
+
+
+#work p {
+  
+  width:70%;
+  margin-top: 15%;
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: left;
+
+}
+
+#work a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #02123D;
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+#work h4 {
+
+  font-size: 2.9em;
+  margin-left: 15%;
+  margin-top: 15%;
+}
+
+
+/*-----grid------*/    
+.row {
+  display: inline-flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 15%;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  
+}
+
+.row img{
+  width: 90%;
+}
+.row .blok{
+  float: left;
+  
+}
+
+#work .blok p{
+  display: none;
+
+}
+
+.blok {
+  width: 80%;
+  opacity: 0.5;
+  align-items: center;
+  text-align: left;
+  font-weight: 100;
+
+}
+
+
+
+.blok:hover {
+    opacity: 1;
+    transition: 0.1s;
+    font-weight: 600;
+}
+
+/*-----footer-----*/
+
+.footer-basic-centered{
+  background-image: url('visualrechts.png');
+  background-repeat: no-repeat;
+  background-size: 70%;
+	
+	font: normal 18px sans-serif;
+  position: relative;
+
+
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #ffffff;
+  font-size: 8px;
+  margin-left: 15%;
+  position: absolute;
+  margin-top: 3%;
+}
+
+.footer-basic-centered .footer-company-motto{
+  display: none;
+}
+
+.footer-basic-centered .footer-links{
+  list-style: none;
+	font-weight: normal;
+	color:  #ffffff;
+  margin-left: 15%;
+  position: absolute;
+  top: 50%;                        
+  transform: translate(0, -50%);
+}
+
+
+.footer-basic-centered .footer-links a{
+display: 
+}
+
+.footer-basic-centered .footer-links i{
+  display:inline-block;
+	text-decoration: none;
+  color: inherit;
+  margin-left: 0.5%;
+  font-size: 0.6em;
+  }
+
+
+.footer-basic-centered .footer-links a:hover{
+    color: #10369c;
+    transition: 0.2s;
+}
+
+
+}

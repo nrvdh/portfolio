@@ -443,18 +443,14 @@ header {
     position: fixed;
     z-index: 99;
     transition: top 0.3s;
-    width: 70%;
+    width: 100%;
     left: 10%;
     right: 10%;
-    text-align: center;
+    text-align: right;
     padding-left: 0;
     padding-right: 0; 
-    display: flex;
-    align-content: center;
-  
-   
-    
-    
+    display: inline-flex;
+    align-content: right;   
 }
 
 #nav a {
@@ -462,7 +458,7 @@ header {
     color: #02123D;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
-    font-size: 3.3vw;
+    font-size: 2vw;
     letter-spacing: 0.3vw;
 }
 
@@ -668,4 +664,31 @@ width: 90%;
   display: none;
 }
 
+}
+
+@media (max-width: 600px) {
+    
+  #nav {
+      top: 0;
+      position: fixed;
+      z-index: 99;
+      transition: top 0.3s;
+      width: 100%;
+      left: 10%;
+      right: 10%;
+      text-align: right;
+      padding-left: 0;
+      padding-right: 0; 
+      display: inline-flex;
+      align-content: right;   
+  }
+  
+  #nav a {
+      text-decoration: none;
+      color: #02123D;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 600;
+      font-size: 3.3vw;
+      letter-spacing: 0.3vw;
+  }
 }

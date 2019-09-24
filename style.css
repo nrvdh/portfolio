@@ -609,7 +609,7 @@ width: 90%;
 .footer-basic-centered{
   background-image: url('visualrechts.png');
   background-repeat: no-repeat;
-  background-size: 70%;
+  background-size: 80%;
 	font: normal 18px sans-serif;
   position: relative;
   padding-bottom: 20;
@@ -619,7 +619,7 @@ width: 90%;
 
 .footer-basic-centered .footer-company-name{
 	color:  #ffffff;
-  font-size: 12px;
+  font-size: 11px;
   margin-left: 15%;
   position: absolute;
   margin-top: 15px;
@@ -647,7 +647,7 @@ width: 90%;
 	text-decoration: none;
   color: inherit;
   margin-left: 0.5%;
-  font-size: 0.8em;
+  font-size: 0.7em;
   letter-spacing: 0.5em;
   }
 

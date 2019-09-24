@@ -182,7 +182,7 @@ header {
 
 #about p {
     
-    width:70%;
+    width:90%;
     font-family: 'Source Sans Pro', sans-serif;
     color: #02123D;
     line-height: 150%; 
@@ -463,7 +463,7 @@ header {
 #about {
   min-height: auto;
   padding: 15%  15%;
-  padding-left: 15%;
+  padding-left: 10%;
   background-color: #FBFBFB;
   background-size: 35%;
   background-repeat: no-repeat;
@@ -480,11 +480,11 @@ width: 90%;
 
 #about p {
   
-  width:70%;
+  width:90%;
   margin-top: 15%;
   text-align: left;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   font-size: 14px;
 
 
@@ -496,16 +496,16 @@ width: 90%;
   font-weight: 600;
   color: #02123D;
   text-align: left;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 
 }
 
 #about h4 {
 
-  font-size: 2.9em;
-  margin-left: 15%;
-  margin-right: 15%;
+  font-size: 2.5em;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 15%;
 }
 
@@ -519,7 +519,7 @@ width: 90%;
 
   min-height: auto;
   padding: 15%  15%;
-  padding-left: 15%;
+  padding-left: 10%;
   background-color: #ffffff;
   background-size: 35%;
   background-repeat: no-repeat;
@@ -534,8 +534,8 @@ width: 90%;
   width:70%;
   margin-top: 15%;
   text-align: left;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   text-align: left;
 
 }
@@ -547,15 +547,15 @@ width: 90%;
   color: #02123D;
   text-align: left;
   margin-left: 15%;
-  margin-right: 15%;
+  margin-right: 10%;
 
 }
 
 #work h4 {
 
-  font-size: 2.9em;
-  margin-left: 15%;
-  margin-top: 15%;
+  font-size: 2.5em;
+  margin-left: 10%;
+  margin-top: 10%;
 }
 
 

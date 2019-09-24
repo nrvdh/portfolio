@@ -1,4 +1,13 @@
 
+/*-----css overflow check
+
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+-----*/
+
 /*-----global------*/
 * {
     margin: 0;
@@ -178,7 +187,7 @@ header {
     font-family: 'Source Sans Pro', sans-serif;
     color: #02123D;
     line-height: 150%; 
-    margin-top: 3%;
+    margin-top: 5%;
     text-align: left;
     font-size: 110%;
     margin-left: 30%;
@@ -195,6 +204,7 @@ header {
     text-align: left;
     margin-left: 30%;
     margin-right: 15%;
+    
 
 }
 
@@ -282,7 +292,7 @@ line-height: 5%;
   display: flex;
   margin-left: 15%;
   margin-right: 15%;
-  margin-top: 15%;
+  margin-top: 5%;
   
 }
 
@@ -296,7 +306,6 @@ line-height: 5%;
 
 #work .blok p{
   text-align: left;
-  margin-top: 10%;
   color: #02123D;
   font-family: 'Source Sans Pro', sans-serif;
   
@@ -345,12 +354,12 @@ line-height: 5%;
 .footer-basic-centered .footer-company-name{
 	color:  #ffffff;
   font-size: 14px;
-  margin-left: 10.5%;
-
+  margin-left: 15%;
   position: absolute;
   top: 50%;                        
   transform: translate(0, -50%);
-  margin-top: 2.5%;
+  margin-top: 35px;
+
 }
 
 .footer-basic-centered .footer-company-motto{
@@ -363,7 +372,7 @@ line-height: 5%;
   list-style: none;
 	font-weight: normal;
 	color:  #ffffff;
-  margin-left: 10%;
+  margin-left: 15%;
   position: absolute;
   top: 50%;                        
   transform: translate(0, -50%);
@@ -376,8 +385,12 @@ line-height: 5%;
 	text-decoration: none;
   color: inherit;
   margin-left: 0.5%;
+  font-size: 1.4em;
+  letter-spacing: 1em;
   
 }
+
+
 
 .footer-basic-centered .footer-links a:hover{
     color: #10369c;
@@ -423,7 +436,7 @@ header {
     animation: fadeIn 4s;
 }
 
-
+/*---------responsive css-----------*/
 @media (max-width: 800px) {
     
     #nav {
@@ -433,11 +446,9 @@ header {
     top: 0;
     position: fixed;
     z-index: 99;
-    margin-top: 1.5%;
     transition: top 0.3s;
     
 }
-
 
 #nav a {
     text-decoration: none;
@@ -445,12 +456,12 @@ header {
     padding: 10px 25px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1em;
     letter-spacing: 0.2vw;
 }
+
 /*-----about------*/
 #about {
-
   min-height: auto;
   padding: 15%  15%;
   padding-left: 15%;
@@ -465,6 +476,7 @@ header {
 #about img{
 align-content: left;
 float: center;
+width: 90%;
 }
 
 #about p {
@@ -492,6 +504,7 @@ float: center;
 
   font-size: 2.9em;
   margin-left: 15%;
+  margin-right: 15%;
   margin-top: 15%;
 }
 /*-----work------*/
@@ -544,16 +557,23 @@ float: center;
   display: inline-flex;
   margin-left: 15%;
   margin-right: 15%;
-  margin-top: 15%;
-  flex-wrap: nowrap;
+  margin-top: 40%;
+  flex-wrap: wrap;
   align-items: stretch;
-  justify-content: space-evenly;
   
 }
 
 .row img{
-  width: 90%;
+  width: 60%;
+  transform: rotate(90deg);
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: -90%;
+
+  
 }
+
+
 .row .blok{
   float: left;
   
@@ -561,14 +581,12 @@ float: center;
 
 #work .blok p{
   display: none;
-
 }
 
 .blok {
   width: 80%;
   opacity: 0.5;
   align-items: center;
-  text-align: left;
   font-weight: 100;
 
 }
@@ -596,11 +614,12 @@ float: center;
 
 .footer-basic-centered .footer-company-name{
 	color:  #ffffff;
-  font-size: 8px;
+  font-size: 12px;
   margin-left: 15%;
   position: absolute;
-  margin-top: 3%;
+  margin-top: 25px;
 }
+
 
 .footer-basic-centered .footer-company-motto{
   display: none;
@@ -617,16 +636,14 @@ float: center;
 }
 
 
-.footer-basic-centered .footer-links a{
-display: 
-}
 
 .footer-basic-centered .footer-links i{
   display:inline-block;
 	text-decoration: none;
   color: inherit;
   margin-left: 0.5%;
-  font-size: 0.6em;
+  font-size: 0.8em;
+  letter-spacing: 0.5em;
   }
 
 
@@ -635,5 +652,8 @@ display:
     transition: 0.2s;
 }
 
+.text {
+  display: none;
+}
 
 }

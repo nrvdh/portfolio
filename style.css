@@ -207,6 +207,26 @@ header {
 
 }
 
+.button {
+  background-color: #dabdda;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.7em;
+  border-radius: 3em;
+  margin-left: 20%;
+  margin-top: 8%;
+  width: 120px;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.button:hover:not(.active) {
+  background-color: #fec005;
+}
 #about a:hover:not(.active) {
   color: #fec005;
 }
@@ -243,7 +263,7 @@ header {
   width:40%;
   font-family: 'Source Sans Pro', sans-serif;
   color: #02123D;
-  line-height: 150%; 
+margin-top: 5%;
   margin-top: 3%;
   text-align: left;
   font-size: 110%;
@@ -502,6 +522,22 @@ width: 90%;
   margin-left: 10%;
   margin-right: 10%;
 
+}
+.button {
+  background-color: #dabdda;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.7em;
+  border-radius: 3em;
+  margin-left: 10%;
+  margin-top: 8%;
+  width: 120px;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0.1em;
 }
 
 #about h4 {

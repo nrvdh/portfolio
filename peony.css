@@ -65,13 +65,12 @@ font-size: 100%;
 
 
 h1 {
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 1.5%;
     text-decoration: none;
     color: #02123D;
     padding: 10px 25px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
     font-size: 1em;
     letter-spacing: 0.2vw;
     line-height: 100px;
@@ -83,7 +82,7 @@ h2 {
     font-family: schulbuchbold;
     color: #fec005;
     letter-spacing: 1vw;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 22%;
     line-height: 50%;
     
@@ -99,7 +98,7 @@ h3 {
     color: #dabdda;
     letter-spacing: 0.3vw;
     font-size: 1.7vw;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 0.1%;
     z-index: 2;
 }
@@ -156,7 +155,7 @@ header {
 
     min-height: auto;
     padding: 15%  15%;
-    padding-left: 15%;
+    padding-left: 10%;
     background-color: #FBFBFB;
     background-size: 35%;
     background-repeat: no-repeat;
@@ -181,7 +180,7 @@ header {
     text-align: left;
     font-size: 15px;
     margin-left: 25%;
-    margin-right: 15%;
+    margin-right: 10%;
 
 }
 
@@ -191,7 +190,7 @@ header {
     color: #dabdda;
     text-align: left;
     margin-left: 25%;
-    margin-right: 15%;
+    margin-right: 10%;
     font-size: 18px;
 
 
@@ -209,7 +208,7 @@ header {
     letter-spacing: 1.5vw;
     text-align: left;
     margin-left: 25%;
-    margin-right: 15%;
+    margin-right: 10%;
 
     
 }
@@ -224,7 +223,7 @@ header {
 #work {
     
   padding-top: 15%;
-  padding-bottom: 15%;
+  padding-bottom: 80%;
   
 }
 
@@ -236,10 +235,12 @@ header {
   margin-top: 3%;
   text-align: left;
   font-size: 110%;
-  margin-left: 15%;
+  margin-left: 20%;
   overflow: auto;
   display: block;
   font-size: 15px;
+  float: left;
+  
   
     
 
@@ -252,8 +253,8 @@ header {
   font-weight: 100;
   letter-spacing: 1.5vw;
   text-align: left;
-  margin-left: 15%;
-  margin-right: 15%
+  margin-left: 10%;
+  margin-right: 10%
 
   
 }
@@ -271,7 +272,6 @@ line-height: 5%;
     color: #dabdda;
     min-width: 40%;
     text-align: left;
-    margin-left: 15%;
 }
 
 #work a:hover:not(.active) {
@@ -280,9 +280,11 @@ line-height: 5%;
 
 #work img {
     float: right;
-    margin-right: 15%;
+    margin-right: 10%;
     vertical-align: middle;
     width: 30%;
+    display: block;
+    margin-left: 10%;
     
 }
 
@@ -327,6 +329,7 @@ line-height: 5%;
 
 
 
+
 /*-----footer-----*/
 
 .footer-basic-centered{
@@ -346,12 +349,12 @@ line-height: 5%;
 .footer-basic-centered .footer-company-name{
 	color:  #ffffff;
   font-size: 14px;
-  margin-left: 10.5%;
-
+  margin-left: 15%;
   position: absolute;
   top: 50%;                        
   transform: translate(0, -50%);
-  margin-top: 2.5%;
+  margin-top: 35px;
+
 }
 
 .footer-basic-centered .footer-company-motto{
@@ -364,7 +367,7 @@ line-height: 5%;
   list-style: none;
 	font-weight: normal;
 	color:  #ffffff;
-  margin-left: 10%;
+  margin-left: 15%;
   position: absolute;
   top: 50%;                        
   transform: translate(0, -50%);
@@ -377,40 +380,18 @@ line-height: 5%;
 	text-decoration: none;
   color: inherit;
   margin-left: 0.5%;
+  font-size: 1.4em;
+  letter-spacing: 1em;
   
 }
+
+
 
 .footer-basic-centered .footer-links a:hover{
     color: #10369c;
     transition: 0.2s;
 }
 
-
-/* If you don't want the footer to be responsive, remove these media queries */
-
-@media (max-width: 600px) {
-
-	.footer-basic-centered{
-		padding: 35px;
-	}
-
-	.footer-basic-centered .footer-company-motto{
-		font-size: 18px;
-	}
-
-	.footer-basic-centered .footer-company-name{
-		font-size: 12px;
-	}
-
-	.footer-basic-centered .footer-links{
-		font-size: 14px;
-		padding: 25px 0 20px;
-	}
-
-	.footer-basic-centered .footer-links a{
-		line-height: 1.8;
-	}
-}
 
 
 
@@ -451,4 +432,284 @@ header {
 }
 
 
+/*---------responsive css-----------*/
+@media (max-width: 800px) {
+    
+  #nav {
+      top: 0;
+      position: fixed;
+      z-index: 99;
+      transition: top 0.3s;
+      width: 100%;
+      left: 10%;
+      right: 10%;
+      text-align: right;
+      padding-left: 0;
+      padding-right: 0; 
+      display: inline-flex;
+      align-content: right;   
+  }
+  
+  #nav a {
+      text-decoration: none;
+      color: #02123D;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 600;
+      font-size: 2vw;
+      letter-spacing: 0.3vw;
+  }
+  
+  /*-----about------*/
+  #about {
+    min-height: auto;
+    padding: 15%  15%;
+    padding-left: 10%;
+    background-color: #FBFBFB;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    display: inline-block;
+    align-items:left;
+  }
+  
+  #about img{
+  align-content: left;
+  float: bottom;
+  width: 90%;
+  }
+
+  #work img{
+    align-content: left;
+    float: bottom;
+    width: 90%;
+    margin-top: 20%;
+    }
+  
+  
+  #about p {
+    
+    width:90%;
+    margin-top: 15%;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 14px;
+  
+  
+  }
+  
+  #about a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #02123D;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+  }
+  .button {
+    background-color: #dabdda;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.7em;
+    border-radius: 3em;
+    margin-left: 10%;
+    margin-top: 8%;
+    width: 120px;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.1em;
+  }
+  
+  #about h4 {
+  
+    font-size: 2.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+  }
+  
+  #about img{
+    width: 70%;
+    margin-left: 15%; 
+    margin-right: 15%; 
+  }
+  /*-----work------*/
+  #work {
+  
+    min-height: auto;
+    padding: 15%  15%;
+    padding-left: 10%;
+    background-color: #ffffff;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    display: inline-block;
+    align-items:left;
+  }
+  
+  
+  #work p {
+    
+    width:70%;
+    margin-top: 15%;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+  
+  }
+  
+  #work a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #02123D;
+    text-align: left;
+    margin-right: 10%;
+  
+  }
+  
+  #work h4 {
+  
+    font-size: 2.5em;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  
+  
+  /*-----grid------*/    
+  .row {
+    display: inline-flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40%;
+    flex-wrap: wrap;
+    align-items: stretch;
+    
+  }
+  
+  .row img{
+    width: 60%;
+    transform: rotate(90deg);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: -90%;
+  
+    
+  }
+  
+  
+  .row .blok{
+    float: left;
+    
+  }
+  
+  #work .blok p{
+    display: none;
+  }
+  
+  .blok {
+    width: 80%;
+    opacity: 0.5;
+    align-items: center;
+    font-weight: 100;
+  
+  }
+  
+  .blok:hover {
+      opacity: 1;
+      transition: 0.1s;
+      font-weight: 600;
+  }
+  
+  /*-----footer-----*/
+  
+  .footer-basic-centered{
+    background-image: url('visualrechts.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    font: normal 18px sans-serif;
+    position: relative;
+    padding-bottom: 20;
+  
+  
+  }
+  
+  .footer-basic-centered .footer-company-name{
+    color:  #ffffff;
+    font-size: 11px;
+    margin-left: 15%;
+    position: absolute;
+    margin-top: 15px;
+  }
+  
+  
+  .footer-basic-centered .footer-company-motto{
+    display: none;
+  }
+  
+  .footer-basic-centered .footer-links{
+    list-style: none;
+    font-weight: normal;
+    color:  #ffffff;
+    margin-left: 15%;
+    position: absolute;
+    top: 40%;                        
+    transform: translate(0, -50%);
+  }
+  
+  
+  
+  .footer-basic-centered .footer-links i{
+    display:inline-block;
+    text-decoration: none;
+    color: inherit;
+    margin-left: 0.5%;
+    font-size: 0.7em;
+    letter-spacing: 0.5em;
+    }
+  
+  
+  .footer-basic-centered .footer-links a:hover{
+      color: #10369c;
+      transition: 0.2s;
+  }
+  
+  .text {
+    display: none;
+  }
+  
+  }
+  
+  @media (max-width: 600px) {
+      
+    #nav {
+        top: 0;
+        position: fixed;
+        z-index: 99;
+        transition: top 0.3s;
+        width: 100%;
+        left: 70%;
+        right: 10%;
+        text-align: right;
+        padding-left: 0;
+        padding-right: 0; 
+        display: inline-flex;
+        align-content: right;   
+    }
+    
+    #nav a {
+        text-decoration: none;
+        color: #02123D;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        font-size: 3.3vw;
+        letter-spacing: 0.3vw;
+    }
+  }
 

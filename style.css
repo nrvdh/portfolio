@@ -346,7 +346,6 @@ line-height: 5%;
 .blok:hover {
     opacity: 1;
     transition: 0.1s;
-    font-weight: 600;
 }
 
 

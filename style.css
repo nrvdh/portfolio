@@ -197,17 +197,14 @@ header {
 #about a {
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    color: #02123D;
+    color: #ffffff;
     min-width: 40%;
-    text-align: left;
-    margin-left: 20%;
-    margin-right: 15%;
+    letter-spacing: 0.1em;
     
 
 }
 
-.button {
+.button1 {
   background-color: #dabdda;
   border: none;
   color: white;
@@ -224,12 +221,10 @@ header {
   letter-spacing: 0.1em;
 }
 
-.button:hover:not(.active) {
+.button1:hover:not(.active) {
   background-color: #fec005;
 }
-#about a:hover:not(.active) {
-  color: #fec005;
-}
+
 
 #about h4 {
     font-family: schulbuchbold;
@@ -243,6 +238,7 @@ header {
 
     
 }
+
 
 .streep1 {
   color: #fec005;
@@ -515,12 +511,10 @@ width: 90%;
 #about a {
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 600;
-  color: #02123D;
-  text-align: left;
-  margin-left: 10%;
-  margin-right: 10%;
-
+  color: #ffffff;
+  min-width: 40%;
+  letter-spacing: 0.1em;
+  
 }
 .button {
   background-color: #dabdda;

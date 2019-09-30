@@ -223,19 +223,28 @@ header {
 #work {
     
   padding-top: 15%;
-  padding-bottom: 80%;
+padding-bottom: 15%;
+min-height: auto;
+padding: 15%  15%;
+padding-left: 10%;
+background-color: #ffffff;
+background-size: 35%;
+background-repeat: no-repeat;
+z-index: 2;
+display: inline-block;
+align-items:left;
   
 }
 
 #work p {
-  width:30%;
+  width:40%;
   font-family: 'Source Sans Pro', sans-serif;
   color: #02123D;
   line-height: 150%; 
   margin-top: 3%;
   text-align: left;
   font-size: 110%;
-  margin-left: 20%;
+  margin-left: 10%;
   overflow: auto;
   display: block;
   font-size: 15px;
@@ -340,8 +349,7 @@ line-height: 5%;
 	font: normal 18px sans-serif;
   position: relative;
   padding-top: 45px;
-  padding-bottom: 45px;
-
+  padding-bottom: 20;
 
 }
 
@@ -637,7 +645,6 @@ header {
     position: relative;
     padding-bottom: 20;
   
-  
   }
   
   .footer-basic-centered .footer-company-name{
@@ -686,7 +693,7 @@ header {
   
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
       
     #nav {
         top: 0;

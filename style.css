@@ -178,6 +178,19 @@ header {
 
 #about img{
   align-content: center;
+  width: 80%;
+  text-align: under;
+  margin-top: 30%;
+}
+
+span.text_portret{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #02123D;
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    margin-left: 4%;
+    
 }
 
 #about p {
@@ -490,10 +503,22 @@ header {
   align-items:left;
 }
 
-#about img{
-align-content: left;
-float: bottom;
-width: 90%;
+span.text_portret{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #02123D;
+  text-align: left;
+  font-size: 1px;
+  display: block;
+  margin-left: 15%;
+  
+}
+span.text_portret{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #02123D;
+  text-align: left;
+  font-size: 14px;
+  display: block;
+  
 }
 
 #about p {
@@ -516,7 +541,7 @@ width: 90%;
   letter-spacing: 0.1em;
   
 }
-.button {
+.button1 {
   background-color: #dabdda;
   border: none;
   color: white;
@@ -542,7 +567,7 @@ width: 90%;
 }
 
 #about img{
-  width: 70%;
+  width: 60%;
   margin-left: 15%; 
   margin-right: 15%; 
 }

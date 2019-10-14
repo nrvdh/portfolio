@@ -1,0 +1,748 @@
+
+/*-----css overflow check
+
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+-----*/
+
+/*-----global------*/
+* {
+    margin: 0;
+    padding: 0;
+    bordeR: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+@font-face {
+    font-family: schulbuchbold;
+    src: url(schulbuchbold.ttf);
+}
+
+@font-face {
+  font-family: schulbuchnormal;
+  src: url(schulbuchnormal.ttf);
+    
+}  
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap');
+
+
+
+
+body, html { 
+width: 100%;
+height: 100%;
+font-size: 100%;
+}
+
+
+
+
+
+#myBtn {
+  width: 2.5em;  
+  display: none;
+  position: fixed;
+  bottom: 2em ;
+  right: 3em;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #10369c;
+  color: white;
+  cursor: pointer;
+  padding: 0.7em;
+  border-radius: 50px;
+  opacity: 0.7;
+    
+}
+
+#myBtn:hover {
+  background-color: #fec005;
+  opacity: 1;
+
+}
+
+#myBtn img {
+    height: 20px;
+    object-position: center;
+}
+
+h1 { 
+    font-size: 2.9vw;
+    font-weight: 100;
+    font-family: schulbuchbold;
+    color: #fec005;
+    letter-spacing: 0.3vw;
+    margin-top: 1.5%;
+    margin-left: 15%;
+    height: 1.2em;
+    position: static;
+    z-index: 1;
+
+    
+}
+
+h2 {
+    font-size: 7.4vw;
+    font-weight: 100;
+    font-family: schulbuchbold;
+    color: #fec005;
+    letter-spacing: 1vw;
+    margin-left: 15%;
+    margin-top: 22%;
+    line-height: 50%;
+    
+    
+    
+}
+
+
+
+h3 {
+    font-weight: 100;
+    font-family: schulbuchnormal;
+    color: #dabdda;
+    letter-spacing: 0.3vw;
+    font-size: 1.7vw;
+    margin-left: 15%;
+    margin-top: 0.1%;
+    z-index: 2;
+}
+
+
+
+/*-----nav------*/
+#nav {
+    text-align: right;
+    width: 85%;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    margin-top: 5.5%;
+    transition: top 0.3s;
+    right: 15%;
+    
+}
+
+
+#nav a {
+    text-decoration: none;
+    color: #02123D;
+    padding: 10px 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    letter-spacing: 0.2vw;
+}
+
+#nav a:hover:not(.active) {
+  color: #dabdda;
+}
+
+/*-----header------*/    
+header {
+    background-image: url('illustratie.png');
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: 42vw;
+    background-position: right bottom;
+    background-position-x: 80%;
+    z-index: 1;
+    padding-bottom: 20%;
+}
+
+
+
+/*-----about------*/
+#about {
+
+    min-height: auto;
+    padding: 15%  15%;
+    padding-left: 15%;
+    background-color: #FBFBFB;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    display: flex;
+    align-items:center;
+}
+
+#about img{
+  align-content: center;
+  width: 80%;
+  text-align: under;
+  margin-top: 30%;
+}
+
+span.text_portret{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #02123D;
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    margin-left: 4%;
+    
+}
+
+#about p {
+    
+    width:90%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #02123D;
+    line-height: 150%; 
+    margin-top: 5%;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 20%;
+    margin-right: 15%;
+
+}
+
+#about a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ffffff;
+    min-width: 40%;
+    letter-spacing: 0.1em;
+    
+
+}
+
+.button1 {
+  background-color: #dabdda;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.7em;
+  border-radius: 3em;
+  margin-left: 20%;
+  margin-top: 8%;
+  width: 120px;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.button1:hover:not(.active) {
+  background-color: #fec005;
+}
+
+
+#about h4 {
+    font-family: schulbuchbold;
+    color: #02123D;
+    font-size: 4.9vw;
+    font-weight: 100;
+    letter-spacing: 1.5vw;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 15%;
+
+    
+}
+
+
+.streep1 {
+  color: #fec005;
+  line-height: 5%;
+}
+
+/*-----work------*/
+
+#work {
+    
+  padding-top: 15%;
+  padding-bottom: 15%;
+  
+}
+
+
+#work p {
+  width:40%;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #02123D;
+margin-top: 5%;
+  margin-top: 3%;
+  text-align: left;
+  font-size: 110%;
+  margin-left: 15%;
+  
+    
+
+}
+
+#work h4 {
+  font-family: schulbuchbold;
+  color: #02123D;
+  font-size: 4.9vw;
+  font-weight: 100;
+  letter-spacing: 1.5vw;
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%
+
+  
+}
+
+.streep2 {
+color: #dabdda;
+line-height: 5%;
+}
+
+
+#work a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #02123D;
+    min-width: 40%;
+    text-align: left;
+    margin-left: 15%;
+}
+
+#work a:hover:not(.active) {
+  color: #fec005;
+}
+
+/*-----grid------*/    
+.row {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  
+}
+
+.row img{
+  width: 70%;
+}
+.row .blok{
+  float: left;
+  
+}
+
+#work .blok p{
+  text-align: left;
+  color: #02123D;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+
+}
+
+.blok {
+  width: 80%;
+  opacity: 0.5;
+  align-items: center;
+  text-align: left;
+  font-weight: 100;
+
+}
+
+
+
+
+.blok:hover {
+    opacity: 1;
+    transition: 0.1s;
+}
+
+
+
+
+
+
+/*-----footer-----*/
+
+.footer-basic-centered{
+  background-image: url('visualrechts.png');
+  background-repeat: no-repeat;
+  background-size: 70%;
+	width: 100%;
+	font: normal 18px sans-serif;
+  position: relative;
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+
+}
+
+
+.footer-basic-centered .footer-company-name{
+	color:  #ffffff;
+  font-size: 14px;
+  margin-left: 15%;
+  position: absolute;
+  top: 50%;                        
+  transform: translate(0, -50%);
+  margin-top: 35px;
+
+}
+
+.footer-basic-centered .footer-company-motto{
+  text-align: right;
+  margin-right: 15%;
+  margin-top: 3%;
+}
+
+.footer-basic-centered .footer-links{
+  list-style: none;
+	font-weight: normal;
+	color:  #ffffff;
+  margin-left: 15%;
+  position: absolute;
+  top: 50%;                        
+  transform: translate(0, -50%);
+  width: 50%;
+}
+
+
+.footer-basic-centered .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+  color: inherit;
+  margin-left: 0.5%;
+  font-size: 1.4em;
+  letter-spacing: 1em;
+  
+}
+
+
+
+.footer-basic-centered .footer-links a:hover{
+    color: #10369c;
+    transition: 0.2s;
+}
+
+
+
+
+/*-----animaties------*/    
+
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(5);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+nav a {
+  animation: bounceIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+   }
+  60% {
+    opacity: 1;
+  }
+  100% {
+  }
+}
+
+header {
+    animation: fadeIn 4s;
+}
+
+/*---------responsive css-----------*/
+@media (max-width: 800px) {
+    
+  #nav {
+    text-align: right;
+    width: 85%;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    margin-top: 5.5%;
+    transition: top 0.3s;
+    right: 15%;
+    
+}
+
+
+#nav a {
+    text-decoration: none;
+    color: #02123D;
+    padding: 10px 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 2vw;
+    letter-spacing: 0.2vw;
+}
+
+/*-----about------*/
+#about {
+  min-height: auto;
+  padding: 15%  15%;
+  padding-left: 10%;
+  background-color: #FBFBFB;
+  background-size: 35%;
+  background-repeat: no-repeat;
+  z-index: 2;
+  display: inline-block;
+  align-items:left;
+}
+
+span.text_portret{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #02123D;
+  text-align: left;
+  font-size: 1px;
+  display: block;
+  margin-left: 15%;
+  
+}
+span.text_portret{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #02123D;
+  text-align: left;
+  font-size: 14px;
+  display: block;
+  
+}
+
+#about p {
+  
+  width:90%;
+  margin-top: 15%;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 14px;
+
+
+}
+
+#about a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  min-width: 40%;
+  letter-spacing: 0.1em;
+  
+}
+.button1 {
+  background-color: #dabdda;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.7em;
+  border-radius: 3em;
+  margin-left: 10%;
+  margin-top: 8%;
+  width: 120px;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+#about h4 {
+
+  font-size: 2.5em;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15%;
+}
+
+#about img{
+  width: 60%;
+  margin-left: 15%; 
+  margin-right: 15%; 
+}
+/*-----work------*/
+#work {
+
+  min-height: auto;
+  padding: 15%  15%;
+  padding-left: 10%;
+  background-color: #ffffff;
+  background-size: 35%;
+  background-repeat: no-repeat;
+  z-index: 2;
+  display: inline-block;
+  align-items:left;
+}
+
+
+#work p {
+  
+  width:70%;
+  margin-top: 15%;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+
+}
+
+#work a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #02123D;
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 10%;
+
+}
+
+#work h4 {
+
+  font-size: 2.5em;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+
+/*-----grid------*/    
+.row {
+  display: inline-flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 40%;
+  flex-wrap: wrap;
+  align-items: stretch;
+  
+}
+
+.row img{
+  width: 60%;
+  transform: rotate(90deg);
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: -90%;
+
+  
+}
+
+
+.row .blok{
+  float: left;
+  
+}
+
+#work .blok p{
+  display: none;
+}
+
+.blok {
+  width: 80%;
+  opacity: 0.5;
+  align-items: center;
+  font-weight: 100;
+
+}
+
+.blok:hover {
+    opacity: 1;
+    transition: 0.1s;
+    font-weight: 600;
+}
+
+/*-----footer-----*/
+
+.footer-basic-centered{
+  background-image: url('visualrechts.png');
+  background-repeat: no-repeat;
+  background-size: 80%;
+	font: normal 18px sans-serif;
+  position: relative;
+  padding-bottom: 20;
+
+
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #ffffff;
+  font-size: 11px;
+  margin-left: 15%;
+  position: absolute;
+  margin-top: 15px;
+}
+
+
+.footer-basic-centered .footer-company-motto{
+  display: none;
+}
+
+.footer-basic-centered .footer-links{
+  list-style: none;
+	font-weight: normal;
+	color:  #ffffff;
+  margin-left: 15%;
+  position: absolute;
+  top: 40%;                        
+  transform: translate(0, -50%);
+}
+
+
+
+.footer-basic-centered .footer-links i{
+  display:inline-block;
+	text-decoration: none;
+  color: inherit;
+  margin-left: 0.5%;
+  font-size: 0.7em;
+  letter-spacing: 0.5em;
+  }
+
+
+.footer-basic-centered .footer-links a:hover{
+    color: #10369c;
+    transition: 0.2s;
+}
+
+.text {
+  display: none;
+}
+
+}
+
+@media (max-width: 600px) {
+    
+  #nav {
+    text-align: right;
+    width: 85%;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    margin-top: 5.5%;
+    transition: top 0.3s;
+    right: 15%;
+    
+}
+
+
+#nav a {
+    text-decoration: none;
+    color: #02123D;
+    padding: 10px 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+}
+}

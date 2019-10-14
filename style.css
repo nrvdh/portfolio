@@ -723,26 +723,26 @@ span.text_portret{
 @media (max-width: 600px) {
     
   #nav {
-      top: 0;
-      position: fixed;
-      z-index: 99;
-      transition: top 0.3s;
-      width: 100%;
-      left: 10%;
-      right: 10%;
-      text-align: right;
-      padding-left: 0;
-      padding-right: 0; 
-      display: inline-flex;
-      align-content: right;   
-  }
-  
-  #nav a {
-      text-decoration: none;
-      color: #02123D;
-      font-family: 'Source Sans Pro', sans-serif;
-      font-weight: 600;
-      font-size: 3.3vw;
-      letter-spacing: 0.3vw;
-  }
+    text-align: right;
+    width: 85%;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    margin-top: 5.5%;
+    transition: top 0.3s;
+    right: 15%;
+    
+}
+
+
+#nav a {
+    text-decoration: none;
+    color: #02123D;
+    padding: 10px 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+}
 }
